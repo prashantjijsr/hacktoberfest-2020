@@ -1,0 +1,11 @@
+#include <iostream> 
+using namespace std; 
+void swap(int &a,int &b, int diff) 
+{ 
+    if(diff==0) 
+        return; 
+    diff--; 
+    a--; 
+    b++; 
+ 	swap(a,b,diff); 
+} 
