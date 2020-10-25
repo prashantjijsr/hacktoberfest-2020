@@ -1,0 +1,12 @@
+#include<bits/stdc++.h> 
+void swap(int x,int y) 
+{ 
+	x^=y^=x^=y; 
+} 
+int main() 
+{ 
+ int x = 10, y = 5; 
+ swap(x,y); 
+ cout<<"After Swapping: x = "<<x<< y = "<<y<<endl; 
+ return 0; 
+} 
